@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addcoins">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="118dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="113dp"
+                android:layout_height="117dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/profiles" />
+
+            <LinearLayout
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="263dp"
+                    android:layout_height="66dp"
+                    android:gravity="center|start"
+                    android:text="TextView"
+                    android:textSize="36sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="402dp">
+
+            <LinearLayout
+                android:id="@+id/contant"
+                android:layout_width="match_parent"
+                android:layout_height="405dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/c0"
+                        android:layout_width="209dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/c150" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/b0"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="شراء  150 عملة" />
+
+                        <TextView
+                            android:id="@+id/t0"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:gravity="center|top"
+                            android:text="هذه العملات رقمية وليست حقيقية "
+                            android:textSize="18sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/c1"
+                        android:layout_width="209dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/c300" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/b1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="شراء 300 عملة" />
+
+                        <TextView
+                            android:id="@+id/t1"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:gravity="center|top"
+                            android:text="هذه العملات رقمية وليست حقيقية "
+                            android:textSize="18sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/c2"
+                        android:layout_width="209dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/c500" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/b2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="شراء 500 عملة" />
+
+                        <TextView
+                            android:id="@+id/t2"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:gravity="center|top"
+                            android:text="هذه العملات رقمية وليست حقيقية "
+                            android:textSize="18sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/c3"
+                        android:layout_width="209dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/c1000" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/b3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="شراء 1000 عملة" />
+
+                        <TextView
+                            android:id="@+id/t3"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:gravity="center|top"
+                            android:text="هذه العملات رقمية وليست حقيقية "
+                            android:textSize="18sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/c4"
+                        android:layout_width="209dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/c2000" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/b4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="شراء 2000عملة" />
+
+                        <TextView
+                            android:id="@+id/t4"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:gravity="center|top"
+                            android:text="هذه العملات رقمية وليست حقيقية "
+                            android:textSize="18sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="149dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="97dp"
+                android:layout_weight="1"
+                android:text="رجوع"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

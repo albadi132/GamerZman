@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/min"
+    tools:context=".infoaccount">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="229dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="11dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#FF5722"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="160dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="186dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center|top"
+        android:text="TextView"
+        android:textColor="#FF5722"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="364dp"
+        android:layout_height="430dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="3dp"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        <LinearLayout
+            android:id="@+id/contant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="367dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="24dp"
+        android:text="رجوع"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
